@@ -25,7 +25,7 @@ def user_inputs():
                     path_of_output_files = line.split("<")[1].replace(">\n", "")
 
                 if "ticket_number" in line:
-                    ticket_number = line.split("<")[1].replace(">\n", "")
+                    ticket_number = line.split("<")[1].replace(">\n", "").replace(">", "")
             except Exception:
                 something_went_wrong(" [!] inputs are probably wrong.")
 
@@ -39,7 +39,7 @@ def user_inputs():
 
         graph_seperator()
 
-        a = input('Type "yes/y" if you want continue. Type "no/n" if you want to change settings: ')
+        a = input('Type "yes/y" if you want continue. Type "no/n" if you want to change settings: ').lower()
 
         graph_seperator()
         result_a = ["yes", "y"]
@@ -72,7 +72,8 @@ def get_data(path, worksheet):
         data_parsed = pd.read_excel(path, sheet_name=worksheet)
         return data_parsed
     except Exception:
-        something_went_wrong(" [!] path or worksheet name are probably wrong.")
+        something_went_wrong("[!] Path or worksheet names might be wrong. If not try to close the excel file and"
+                             "run the program afterwards.")
 
 
 def graph_seperator():
@@ -122,6 +123,7 @@ def record_parser(items):
     headers = dict_creator(data.columns)
     record = {}
     all_records = []
+
     for item in items:
         counter = 0
         for key in headers:
@@ -135,10 +137,11 @@ def record_parser(items):
 
 
 def country_selector(records):
-    records_by_country = get_countries(data["country"].tolist())
+    records_by_country = get_countries(data["Country"].tolist())
+
     for record in records:
         for key in records_by_country:
-            if str(key) in str(record.get("country")):
+            if str(key) in str(record.get("Country")):
                 records_by_country[key].append(record)
 
     return records_by_country
@@ -157,7 +160,7 @@ def create_xlsx(data, output_path):
 
             file_paths.append(output_path + "\\\\" + key + ".xlsx")
 
-    except Exception:
+    except:
         something_went_wrong("")
 
     return file_paths
@@ -187,11 +190,11 @@ def send_mail_contacts(files, ticket, template):
         else:
             not_sent.append(file.split("\\")[-1].replace(".xlsx", ""))
 
-    print("\n------ Success! ------")
+    print("\n          ------ Success! ------")
     for mail in sent:
         print(mail)
 
-    print("\n----- Has not been sent ------")
+    print("\n      ----- Has not been sent ------")
     for mail in not_sent:
         print(mail + ".xlsx" + " ---> has not been sent due to missing contact")
 
@@ -225,19 +228,23 @@ while True:
     complete_data = country_selector(all_records)
 
     write_data = create_xlsx(complete_data, output_files)
-    template_decider = input('\nWhich template do you want to use? For "Parked and shared" press "P"'
-                             '"and for IngestBlocked" pres "I": ')
+    template_decider = input('\nWhich template do you want to use?\nFor "File Server" press "FS",\n'
+                             'for "Awaiting – Discovered" pres "A",\n'
+                             'for "Owner unclear - User disagree" press "O",\n'
+                             'for "Not Enabled Users" press "N",\n'
+                             'for "Failed Items" press "FI"\n'
+                             '\033[1m[+] Your choice: \033[0m')
 
-    if template_decider.upper() not in ("I", "P"):
-        something_went_wrong(" [!] If the program failed in this stage you can start panicking and screaming because "
+    if template_decider.upper() not in ("FS", "A", "N", "O", "FI"):
+        something_went_wrong("[!] If the program failed in this stage you can start panicking and screaming because "
                              "idk how this could happen.")
 
     send_mail_contacts(write_data, ticket, template_decider)
 
     graph_seperator()
 
-    close = input("When you want to close the program enter 'C': ")
+    close = input('Press "C" to end the program: ')
     if close.upper() == "C":
         print("closing...")
-        time.sleep(5)
+        time.sleep(4)
         break
