@@ -1,65 +1,75 @@
-Australia: <branislav.hrasko@heidelbergcement.com>
-Bangladesh: <branislav.hrasko@heidelbergcement.com>
-Belgium: <branislav.hrasko@heidelbergcement.com>
-Benin: <branislav.hrasko@heidelbergcement.com>
-Burkina: Faso <branislav.hrasko@heidelbergcement.com>
-Bosnia and Herzegovina: <branislav.hrasko@heidelbergcement.com>
-Brunei Darussalam: <branislav.hrasko@heidelbergcement.com>
-Canada: <branislav.hrasko@heidelbergcement.com>
-Congo: <branislav.hrasko@heidelbergcement.com>
-Congo: <branislav.hrasko@heidelbergcement.com>
-Congo(DRC): <branislav.hrasko@heidelbergcement.com>
-Congo(DRC): <branislav.hrasko@heidelbergcement.com>
-Czech republic: <branislav.hrasko@heidelbergcement.com>
-Denmark: <branislav.hrasko@heidelbergcement.com>
-Egypt: <branislav.hrasko@heidelbergcement.com>
-Estonia: <branislav.hrasko@heidelbergcement.com>
-France: <branislav.hrasko@heidelbergcement.com>
-Gambia: <branislav.hrasko@heidelbergcement.com>
-Gambia: <branislav.hrasko@heidelbergcement.com>
-Georgia: <branislav.hrasko@heidelbergcement.com>
-Germany: <branislav.hrasko@heidelbergcement.com>
-Ghana: <branislav.hrasko@heidelbergcement.com>
-Hungary: <branislav.hrasko@heidelbergcement.com>
-China: <branislav.hrasko@heidelbergcement.com>
-India: <branislav.hrasko@heidelbergcement.com>
-Indonesia: <branislav.hrasko@heidelbergcement.com>
-Italy: <branislav.hrasko@heidelbergcement.com>
-Kazakhstan: <branislav.hrasko@heidelbergcement.com>
-Latvia: <branislav.hrasko@heidelbergcement.com>
-Liberia: <branislav.hrasko@heidelbergcement.com>
-Lithuania: <branislav.hrasko@heidelbergcement.com>
-Malaysia: <branislav.hrasko@heidelbergcement.com>
-Malta: <branislav.hrasko@heidelbergcement.com>
-Mauritania: <branislav.hrasko@heidelbergcement.com>
-Morocco: <branislav.hrasko@heidelbergcement.com>
-Mozambique: <branislav.hrasko@heidelbergcement.com>
-Mozambique: <branislav.hrasko@heidelbergcement.com>
-Netherlands: <branislav.hrasko@heidelbergcement.com>
-Norway: <branislav.hrasko@heidelbergcement.com>
-Poland: <branislav.hrasko@heidelbergcement.com>
-Romania: <branislav.hrasko@heidelbergcement.com>
-Russian Federation: <branislav.hrasko@heidelbergcement.com>
-Russia: <branislav.hrasko@heidelbergcement.com>
-Sierra Leone: <branislav.hrasko@heidelbergcement.com>
-Singapore: <branislav.hrasko@heidelbergcement.com>
-Slovakia: <branislav.hrasko@heidelbergcement.com>
-Spain: <branislav.hrasko@heidelbergcement.com>
-Sweden: <branislav.hrasko@heidelbergcement.com>
-Tanzania: <branislav.hrasko@heidelbergcement.com>
-Tanzania: <branislav.hrasko@heidelbergcement.com>
-Thailand: <branislav.hrasko@heidelbergcement.com>
-Togo: <branislav.hrasko@heidelbergcement.com>
-Turkey: <branislav.hrasko@heidelbergcement.com>
-Ukraine: <branislav.hrasko@heidelbergcement.com>
-United Kingdom: <United Kingdom: <gbrtsfa@hanson.biz>>
-United States of America: <branislav.hrasko@heidelbergcement.com>
-United States: <branislav.hrasko@heidelbergcement.com>
-Israel: <branislav.hrasko@heidelbergcement.com>
-Finland: <branislav.hrasko@heidelbergcement.com>
-Luxemburg: <branislav.hrasko@heidelbergcement.com>
-United Arab Emirates: <branislav.hrasko@heidelbergcement.com>
-Croatia: <branislav.hrasko@heidelbergcement.com>
-Hong Kong: <branislav.hrasko@heidelbergcement.com>
-Bulgaria: <branislav.hrasko@heidelbergcement.com>
-Greece: <branislav.hrasko@heidelbergcement.com>
+Bangladesh: <BGDServiceDesk@heidelbergcement.com>
+Belgium: <bnl.servicedesk@heidelbergcement.com>
+BENE: <bnl.servicedesk@heidelbergcement.com>
+Benin: <BEN_LocalSD@hcafrica.com>
+Burkina Faso: <BFA_LocalSD@hcafrica.com>
+Bosnia and Herzegovina: <bih.servicedesk@heidelbergcement.com>
+Brunei Darussalam: <bih.servicedesk@heidelbergcement.com>
+Canada: <NAMServiceDesk@LehighHanson.com>
+Congo: <patrick.matuamona@cilurdc.com>
+Congo: <philippe.mafuku@cilurdc.com>
+Congo(DRC): <patrick.matuamona@cilurdc.com>
+Congo(DRC): <philippe.mafuku@cilurdc.com>
+Czech republic: <cze.servicedesk@heidelbergcement.com>
+Czech Republic: <cze.servicedesk@heidelbergcement.com>
+Denmark: <NEServiceDesk@heidelbergcement.com>
+Egypt: <ITSUPPORT@suezcem.com>
+Estonia: <est.servicedesk@heidelbergcement.com>
+France: <support.informatique@heidelbergcement.com; JPEREZ.external@ciments-calcia.fr>
+Gambia: <abdou.mbye@hiedelbergcement.com>
+Gambia: <alan.kerr@ghacem.com>
+Georgia: <Geo.servicedesk@heidelbergcement.ge>
+Germany: <deusd@heidelbergcement.com>
+Gemany: <deusd@heidelbergcement.com>
+DEU: <deusd@heidelbergcement.com>
+Deutschland: <deusd@heidelbergcement.com>
+Ghana: <alan.kerr@ghacem.com>
+Hungary: <hun.ServiceDesk@HeidelbergCement.com>
+China: <chnit@heidelbergcement.com>
+India: <Alok.Srivastava@Heidelbergcement.in>
+Indonesia: <mis.helpdesk@indocement.co.id>
+Italy: <supportoinformatico@heidelbergcement.com>
+Italia: <supportoinformatico@heidelbergcement.com>
+Kazakhstan: <kaz.servicedesk@heidelbergcement.kz>
+Kazachstan: <kaz.servicedesk@heidelbergcement.kz>
+Latvia: <lva.servicedesk@heidelbergcement.com>
+Liberia: <jalneh.blee@hcafrica.com>
+Lithuania: <ltu.servicedesk@heidelbergcement.com>
+Malaysia: <SDOSDEMalaysia@heidelbergcement.com>
+Malta: <hctit@hctrading.com>
+Mauritania: <CDM-IT.Support@cimar.co.ma>
+Morocco: <itservicedesk@cimar.co.ma>
+Marocco: <itservicedesk@cimar.co.ma>
+Mozambique: <patrick.ndimbo@twigacement.com>
+Mozambique: <benkiko.chikira@twigacement.com>
+Netherlands: <bnl.servicedesk@heidelbergcement.com>
+Norway: <NEServiceDesk@heidelbergcement.com>
+NEU: <NEServiceDesk@heidelbergcement.com>
+Poland: <servicedesk@gorazdze.pl>
+Romania: <rou.servicedesk@heidelbergcement.ro>
+Russian Federation: <rus.ServiceDesk@heidelbergcement.com>
+Russia: <rus.ServiceDesk@heidelbergcement.com>
+Sierra Leone: <davie.ademokula@hcafrica.com>
+Singapore: <sgpit@heidelbergcement.com>
+Slovakia: <cze.servicedesk@heidelbergcement.com>
+Spain: <esp.servicedesk@heidelbergcement.com>
+Sweden: <NEServiceDesk@heidelbergcement.com>
+Tanzania: <patrick.ndimbo@twigacement.com>
+Tanzania: <benkiko.chikira@twigacement.com>
+Thailand: <GRPCountryOperations-THA@heidelbergcement.com>
+Togo: <TGO_LocalSD@hcafrica.com>
+Turkey: <huseyin.bolel@hctrading.com>
+Ukraine: <ukr.servicedesk@heidelbergcement.com>
+United States of America: <NAMServiceDesk@LehighHanson.com>
+United States: <NAMServiceDesk@LehighHanson.com>
+United Stated: <NAMServiceDesk@LehighHanson.com>
+Israel: <isr.servicedesk@heidelbergcement.com>
+Finland: <bnl.servicedesk@heidelbergcement.com>
+Luxemburg: <bnl.servicedesk@heidelbergcement.com>
+United Arab Emirates: <hctit@hctrading.com>
+Croatia: <bih.servicedesk@heidelbergcement.com>
+Hong Kong: <Thomas.Ng@concrete.hk>
+Bulgaria: <GRPGITCountryOperations-BGRandGRC@heidelbergcement.com>
+Greece: <GRPGITCountryOperations-BGRandGRC@heidelbergcement.com>
+United Kingdom: <gbrtsfa@hanson.biz>
+Australia: <BSS.ServiceDesk@Hanson.com.au>
