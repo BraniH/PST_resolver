@@ -1,4 +1,4 @@
-path_of_input_file  <C:\Users\bhrasko\Downloads\kokotinka.xlsx>
+path_of_input_file  <C:\Users\user\Downloads\file.xlsx>
 input_worksheet   <IngestBlocked>
-path_of_output_files  <C:\Users\bhrasko\OneDrive - HeidelbergCement Group\Desktop\Scripts\pythonProject\PST\Results>
+path_of_output_files  <C:\Users\user\OneDrive\Desktop\Scripts\pythonProject\PST\Results>
 ticket_number  <1008755>
